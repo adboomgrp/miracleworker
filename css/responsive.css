@@ -1,0 +1,160 @@
+@media (max-width: 960px) {
+  h2 {
+    padding: 10px 10px;
+    font-size: 26px;
+    font-weight: 300; }
+
+  h4 {
+    font-size: 26px;
+    font-weight: 300; }
+
+  h5 {
+    font-size: 26px; }
+
+  p {
+    font-size: 14px;
+    margin: 10px 0px; }
+
+  header {
+    padding: 10px 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    text-align: right; }
+    header .logo {
+      max-height: 40px; }
+    header nav {
+      display: none; }
+    header .mobile-nav {
+      display: block;
+      float: right;
+      margin-top: 10px; }
+
+  main {
+    margin-top: 80px; }
+
+  #signup {
+    background-image: url("../images/signup-bg.png");
+    background-size: 100%;
+    background-position: center bottom;
+    padding-bottom: 255px; }
+    #signup h1 {
+      font-weight: 300;
+      text-align: center;
+      font-size: 24px;
+      padding-bottom: 20px; }
+      #signup h1 strong {
+        font-weight: 500; }
+    #signup h2 {
+      text-align: left;
+      font-weight: 300; }
+    #signup form .credit-badge {
+      top: -20px;
+      right: 0px;
+      left: auto;
+      width: 70px; }
+    #signup .steps {
+      margin: 0px;
+      padding-top: 25px; }
+
+  #jumbotron .btn {
+    font-size: 18px; }
+
+  #join {
+    padding-top: 25px;
+    padding-bottom: 55px; }
+    #join .benefit {
+      margin: 55px 0px;
+      padding: 35px 55px; }
+      #join .benefit p {
+        font-size: 20px; }
+      #join .benefit img {
+        margin-top: -100px; }
+
+  #steps h3 {
+    font-size: 24px;
+    font-weight: 300; }
+  #steps .arrow-horizontal {
+    display: none; }
+  #steps .arrow-vertical {
+    display: inline-block;
+    clear: both;
+    margin-bottom: 45px; }
+
+  #content {
+    max-height: 100%; }
+    #content h2 {
+      padding-top: 25px; }
+
+  #testimonials #testimonial-bank {
+    max-width: 100%;
+    padding-bottom: 140px; }
+  #testimonials .slick-prev, #testimonials .slick-next {
+    width: 120px;
+    top: 90%; }
+  #testimonials .slick-prev {
+    left: 40px; }
+  #testimonials .slick-next {
+    right: 40px; }
+
+  #benefits {
+    background-position: center top -12px;
+    padding-top: 75px; }
+    #benefits .box {
+      min-height: auto;
+      padding: 20px 15px; }
+      #benefits .box:first-of-type {
+        border-right: 1px dashed #97b664;
+        border-bottom: 0px;
+        max-width: 90%;
+        display: inline-block; }
+      #benefits .box:last-of-type {
+        border-left: 1px dashed #97b664;
+        border-top: 0px;
+        max-width: 90%;
+        display: inline-block; }
+      #benefits .box .btn {
+        max-width: 100%;
+        padding: 10px; }
+    #benefits .row {
+      padding: 0px 10px; }
+
+  #bottom-signup {
+    background-size: 100%;
+    padding-top: 45px; }
+    #bottom-signup h2 {
+      font-weight: 300;
+      padding: 15px 0px; }
+    #bottom-signup h6 {
+      font-size: 26px;
+      padding: 0px;
+      padding-bottom: 85px;
+      text-align: center; }
+      #bottom-signup h6 strong {
+        font-weight: 500; }
+    #bottom-signup .banner {
+      max-width: 100%;
+      top: -80px;
+      bottom: auto;
+      left: 0px; }
+
+  #shipping header {
+    text-align: center;
+    position: relative; }
+  #shipping .steps {
+    padding-top: 25px;
+    padding-bottom: 10px; }
+  #shipping main {
+    margin-top: 10px; }
+  #shipping #shipping-form p {
+    text-align: center; }
+    #shipping #shipping-form p .alignleft {
+      float: none;
+      display: inline-block;
+      margin: 10px 0px; }
+    #shipping #shipping-form p .clearfix {
+      display: block;
+      padding: 0px; } }
